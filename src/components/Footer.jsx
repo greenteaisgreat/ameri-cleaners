@@ -34,6 +34,12 @@ const Footer = () => {
               Country
             </p>
           </div>
+          <div className="mt-4 mb-4">
+            <h3 className="text-xl font-semibold mb-2 font-poppins">Hours of Service</h3>
+            <p className="font-poppins text-gray-800 text-lg">MON-FRI: 9AM-7PM</p>
+            <p className="font-poppins text-gray-800 text-lg">SAT: 9AM-6PM</p>
+            <p className="font-poppins text-gray-800 text-lg">SUN: CLOSED</p>
+          </div>
         </div>
       </div>
       <div className="mt-8 text-center text-gray-500">
