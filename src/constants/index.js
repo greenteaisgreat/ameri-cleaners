@@ -14,8 +14,16 @@ export const navLinks = [
         title: "About"
     },
     {
+        id: "eco",
+        title: "Eco-Friendly Dry Cleaning"
+    },
+    {
         id: "contact",
         title: "Contact"
+    },
+    {
+        id: "faq",
+        title: "FAQ"
     }
 ]
 
