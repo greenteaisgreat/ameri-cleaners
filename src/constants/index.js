@@ -2,7 +2,7 @@
 
 export const navLinks = [
     {
-        id: "home",
+        id: "hero",
         title: "Home"
     },
     {
@@ -16,5 +16,24 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact"
+    }
+]
+
+export const services = [
+    {
+        id: "service-1",
+        title: "Dry Cleaning"
+    },
+    {
+        id: "service-2",
+        title: "Clothing Restoration"
+    },
+    {
+        id: "service-3",
+        title: "Tailoring"
+    },
+    {
+        id: "service-4",
+        title: "And many more!"
     }
 ]
