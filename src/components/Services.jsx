@@ -5,7 +5,7 @@ import styles from '../style';
 const Services = () => {
   return (
     <div id="services">
-        <div className="font-poppins font-semibold ss:text-[40px] text-[52px] ss:leading-[100px] leading-[75px] w-full">Services</div>
+        <div className="font-poppins font-bold ss:text-[40px] text-[52px] ss:leading-[100px] leading-[75px] w-full">Services</div>
         <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
             {services.map((service) => (
                 <div key={service.id} className={`flex-1 flex justify-start items-center flex-row m-3`}>
