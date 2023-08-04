@@ -6,10 +6,8 @@ module.exports = {
     extend: {
       colors: {
         //COLOR PALETTE SWAP HERE!
-        primary: "#abedad",
-        secondary: "#00f6ff",
-        dimBlack: "rgba(7, 9, 26, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        primary: "#FFFFFF",
+        secondary: "#abedad",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
