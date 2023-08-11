@@ -4,11 +4,6 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
-      colors: {
-        //COLOR PALETTE SWAP HERE!
-        primary: "#FFFFFF",
-        secondary: "#abedad",
-      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
