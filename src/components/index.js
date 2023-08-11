@@ -18,4 +18,4 @@ export {
     Contact,
     Faq,
     Footer
-}
+} 
