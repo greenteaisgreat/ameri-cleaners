@@ -2,14 +2,16 @@ import React from "react";
 
 const Eco = () => {
   return (
-    <div id="eco">
+    <div
+      id="eco"
+      className="sm:px-16 px-6"
+      style={{ background: "#78B9A5" }} // Set background color
+    >
       <div className="mx-auto px-2 py-20">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-8">
-            <h3 className="text-4xl md:text-5xl font-bold mb-6">
-              Eco-Friendly Dry Cleaning
-            </h3>
-            <p className="text-gray-700 text-lg leading-relaxed font-poppins">
+            <h3 className="text-4xl md:text-5xl font-bold mb-6 text-white">Eco-Friendly Dry Cleaning</h3> {/* Set text color */}
+            <p className="text-lg leading-relaxed font-poppins text-white"> {/* Set text color */}
               We are extremely environmentally conscious and always make sure
               that we are using only the most environmentally friendly products
               and cleaning methods. At the same time, we are aware that many of
@@ -25,5 +27,6 @@ const Eco = () => {
     </div>
   );
 };
+
 
 export default Eco;

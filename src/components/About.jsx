@@ -2,12 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-10">
-      <div className="mx-auto px-2">
+    <section
+      id="about"
+      className="py-10 sm:px-16 px-6"
+      style={{ background: "#78B9A5" }} // Set background color
+    >
+      <div className="px-2">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-8">
-            <h3 className="text-4xl md:text-5xl font-bold mb-6">About Us</h3>
-            <p className="text-gray-700 text-lg leading-relaxed font-poppins">
+            <h3 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Us</h3> {/* Set text color */}
+            <p className="text-lg leading-relaxed font-poppins text-white"> {/* Set text color */}
               Hi there! I'm Khiet Ta, a passionate busniess owner based in the
               Seattle, WA. I love serving the community and helping others. My
               journey in the world of dry cleaning began recently but I haven't
@@ -16,11 +20,12 @@ const About = () => {
               for my clients.
             </p>
           </div>
-          <div className="md:w-1/2 mt-8 md:mt-0 ">Picture Here</div>
+          <div className="md:w-1/2 mt-8 md:mt-0">Picture Here</div>
         </div>
       </div>
     </section>
   );
 };
+
 
 export default About;

@@ -6,21 +6,24 @@ const Hero = () => {
     <section
       id="hero"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      style={{ background: "#ABEDAD" }} // Set background color
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px 6`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="font-poppins font-bold ss:text-[50px] text-[60px] ss:leading-[75px] leading-[100px] w-full">
+          <h1 className="font-poppins font-bold ss:text-[50px] text-[60px] ss:leading-[75px] leading-[100px] w-full text-white">
             Our customers are our #1 priority
           </h1>
         </div>
         <div>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5 ml-1`}>
+          <p
+            className={`${styles.paragraph} max-w-[470px] mt-5 ml-1 text-white`}
+          >
             Here at Ameri-Cleaners we dedicate ourselves to professional
-            cleaning and services. Here at Ameri-Cleaners we decidate ourselves
+            cleaning and services. Here at Ameri-Cleaners we dedicate ourselves
             to professional cleaning and services. Here at Ameri-Cleaners we
-            decidate ourselves to professional cleaning and services.
+            dedicate ourselves to professional cleaning and services.
           </p>
         </div>
       </div>
