@@ -4,21 +4,21 @@ import { NavBar, Hero, Services, About, Eco, Testimonials, Contact, Faq, Footer 
 
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className=" w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className='w-full'>
         <NavBar />
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`${styles.flexStart}`}>
+      <div className="w-full">
         <Hero />
       </div>
     </div>
     
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className='w-full'>
         <Services />
         <About />
         <Eco />

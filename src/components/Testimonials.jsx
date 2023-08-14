@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-primary py-10">
+    <section id="testimonials" className="sm:px-16 px-6 py-10">
       <div className="mx-auto px-3">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-8">
