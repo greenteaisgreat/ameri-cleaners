@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       className="py-10 sm:px-16 px-6"
-      style={{ background: "#78B9A5" }} // Set darker background color
+      style={{ background: "#006724" }} // Set darker background color
     >
       <div className="mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">

@@ -5,7 +5,7 @@ const Eco = () => {
     <div
       id="eco"
       className="sm:px-16 px-6"
-      style={{ background: "#78B9A5" }} // Set background color
+      style={{ background: "#16A75D" }} // Set background color
     >
       <div className="mx-auto px-2 py-20">
         <div className="flex flex-col md:flex-row items-center">
