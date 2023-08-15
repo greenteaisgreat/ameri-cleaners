@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       id="hero"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
-      style={{ background: "#ABEDAD" }} // Set background color
+      style={{ background: "#3ABD72" }} // Set background color
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}

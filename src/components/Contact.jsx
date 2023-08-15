@@ -5,7 +5,7 @@ const Contact = () => {
     <section
       id="contact"
       className="sm:px-16 px-6 py-10"
-      style={{ background: "#78B9A5" }} // Set background color
+      style={{ background: "#16A75D" }} // Set background color
     >
       <div className="mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
@@ -73,21 +73,21 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="Enter your name"
-                  className="p-2 bg-transparent border-2 border-green-800 rounded-md text-white focus:outline-none"
+                  className="placeholder-white p-2 bg-transparent border-2 border-green-800 rounded-md text-white focus:outline-none"
                 />
 
                 <input
                   type="text"
                   name="email"
                   placeholder="Enter your email"
-                  className="my-4 p-2 bg-transparent border-2 border-green-800 rounded-md text-white focus:outline-none"
+                  className="placeholder-white my-4 p-2 bg-transparent border-2 border-green-800 rounded-md text-white focus:outline-none"
                 />
 
                 <textarea
                   name="message"
                   placeholder="Enter your message"
                   rows="10"
-                  className="p-2 bg-transparent border-2 border-green-800 rounded-md text-white focus:outline-none"
+                  className="placeholder-white p-2 bg-transparent border-2 border-green-800 rounded-md text-white focus:outline-none"
                 ></textarea>
 
                 <button className="text-white bg-gradient-to-b from-green-600 to-green-900 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">

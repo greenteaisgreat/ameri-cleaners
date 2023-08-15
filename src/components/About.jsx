@@ -5,7 +5,7 @@ const About = () => {
     <section
       id="about"
       className="py-10 sm:px-16 px-6"
-      style={{ background: "#78B9A5" }} // Set background color
+      style={{ background: "#3ABD72" }} // Set background color
     >
       <div className="px-2">
         <div className="flex flex-col md:flex-row items-center">
