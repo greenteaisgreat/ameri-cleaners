@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import hero from "../assets/hero.png"
 
 const Hero = () => {
   return (
@@ -13,7 +14,8 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="font-poppins font-bold ss:text-[50px] text-[60px] ss:leading-[75px] leading-[100px] w-full text-white">
-            Our customers are our #1 priority
+            Your Clothes,
+            Our Care
           </h1>
         </div>
         <div>
@@ -27,8 +29,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
-        Picture Here
+      <div className="md:w-1/2 mt-8 md:mt-0 mx-4 object-center flex justify-center">
+        <img src={hero} alt="hero" className="rounded-xl shadow-lg"/>
       </div>
     </section>
   );

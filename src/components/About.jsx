@@ -1,4 +1,5 @@
 import React from "react";
+import khiet from "../assets/khiet.png"
 
 const About = () => {
   return (
@@ -20,7 +21,9 @@ const About = () => {
               for my clients.
             </p>
           </div>
-          <div className="md:w-1/2 mt-8 md:mt-0">Picture Here</div>
+          <div className="md:w-1/2 mt-8 md:mt-0">
+            <img src={khiet} alt="owner" className="rounded-xl object-center flex justify-center"/>
+          </div>
         </div>
       </div>
     </section>

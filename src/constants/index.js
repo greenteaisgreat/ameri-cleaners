@@ -27,24 +27,6 @@ export const navLinks = [
     }
 ]
 
-export const services = [
-    {
-        id: "service-1",
-        title: "Dry Cleaning"
-    },
-    {
-        id: "service-2",
-        title: "Clothing Restoration"
-    },
-    {
-        id: "service-3",
-        title: "Tailoring"
-    },
-    {
-        id: "service-4",
-        title: "And many more!"
-    }
-]
 
 export const faq = [
     {
