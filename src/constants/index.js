@@ -1,4 +1,9 @@
 //References to fixed texts for webpage
+import heroOne from "../assets/hero1.png";
+import heroTwo from "../assets/hero2.png";
+import heroThree from "../assets/hero3.png";
+import heroFour from "../assets/hero4.png";
+import heroFive from "../assets/hero5.png";
 
 export const navLinks = [
     {
@@ -53,5 +58,24 @@ export const faq = [
         id:"faq-5",
         question: "Have questions you don't see here?",
         answer: "Call or submit a form in our Contact Us section above!"
+    }
+]
+
+
+export const slides = [
+    {
+        src: heroOne
+    },
+    {
+        src: heroTwo
+    },
+    {
+        src: heroThree
+    },
+    {
+        src: heroFour
+    },
+    {
+        src: heroFive
     }
 ]
