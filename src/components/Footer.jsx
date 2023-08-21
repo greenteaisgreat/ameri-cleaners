@@ -9,9 +9,13 @@ const Footer = () => {
       <div className="mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/3 md:pr-8">
-            <h2 className="text-2xl font-semibold mb-4 font-poppins text-white">
+            <h2 className="text-2xl font-semibold mb-1 font-poppins text-white">
               Our Mission
             </h2>
+            <div className="w-1/4">
+              <hr className="border-t-2 border-green-600 mb-4" />
+            </div>
+
             <p className="font-poppins text-white">
               Here at Ameri-Cleaners, we take pride in providing the best dry
               cleaning service to our customers. Our dedication to
@@ -21,24 +25,23 @@ const Footer = () => {
           </div>
 
           <div className="md:w-1/3 mt-8 md:mt-0 md:ml-auto">
-            <h2 className="text-2xl font-semibold mb-4 font-poppins text-white">
+            <h2 className="text-2xl font-semibold mb-1 font-poppins text-white">
               Contact Us
             </h2>
+            <div className="w-1/4">
+              <hr className="border-t-2 border-green-600 mb-4" />
+            </div>
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 font-poppins text-white">
                 Email
               </h3>
-              <p className="font-poppins text-white">
-                info@example.com
-              </p>
+              <p className="font-poppins text-white">info@example.com</p>
             </div>
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 font-poppins text-white">
                 Store and Mobile Phone Number
               </h3>
-              <p className="font-poppins text-white">
-                +1 (123) 456-7890
-              </p>
+              <p className="font-poppins text-white">+1 (123) 456-7890</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-2 font-poppins text-white">
@@ -59,12 +62,8 @@ const Footer = () => {
               <p className="font-poppins text-lg text-white">
                 MON-FRI: 9AM-7PM
               </p>
-              <p className="font-poppins text-lg text-white">
-                SAT: 9AM-6PM
-              </p>
-              <p className="font-poppins text-lg text-white">
-                SUN: CLOSED
-              </p>
+              <p className="font-poppins text-lg text-white">SAT: 9AM-6PM</p>
+              <p className="font-poppins text-lg text-white">SUN: CLOSED</p>
             </div>
           </div>
         </div>
@@ -75,6 +74,5 @@ const Footer = () => {
     </footer>
   );
 };
-
 
 export default Footer;
