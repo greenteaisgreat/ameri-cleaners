@@ -13,7 +13,7 @@ const Hero = () => {
       style={{ background: "#3ABD72" }} // Set background color
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexStart} flex-col sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="font-poppins font-bold ss:text-[50px] text-[60px] ss:leading-[75px] leading-[100px] w-full text-white">
@@ -35,7 +35,7 @@ const Hero = () => {
         <Carousel showThumbs={false} autoPlay infiniteLoop>
             {slides.map((slide, index) => (
               <div key={index}>
-                <img src={slide.src} alt={`Slide ${index + 1}`} className="rounded-xl"/>
+                <img src={slide.src} alt={`Slide ${index + 1}`} className="h-auto w-full rounded-xl"/>
               </div>
             ))}
         </Carousel>
