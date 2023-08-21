@@ -1,12 +1,15 @@
 import React from "react";
 import styles from "../style";
-import hero from "../assets/hero.png"
+import { slides } from "../constants";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 const Hero = () => {
   return (
     <section
       id="hero"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col  ${styles.paddingY}`}
       style={{ background: "#3ABD72" }} // Set background color
     >
       <div
@@ -14,8 +17,7 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="font-poppins font-bold ss:text-[50px] text-[60px] ss:leading-[75px] leading-[100px] w-full text-white">
-            Your Clothes,
-            Our Care
+            Your Clothes, Our Care
           </h1>
         </div>
         <div>
@@ -30,7 +32,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0 mx-4 object-center flex justify-center">
-        <img src={hero} alt="hero" className="rounded-xl shadow-lg"/>
+        <Carousel showThumbs={false} autoPlay infiniteLoop>
+            {slides.map((slide, index) => (
+              <div key={index}>
+                <img src={slide.src} alt={`Slide ${index + 1}`} className="rounded-xl"/>
+              </div>
+            ))}
+        </Carousel>
       </div>
     </section>
   );
