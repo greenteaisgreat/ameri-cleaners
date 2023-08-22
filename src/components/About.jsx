@@ -22,7 +22,8 @@ const About = () => {
             </p>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <img src={khiet} alt="owner" className="rounded-xl object-center flex justify-center"/>
+            {/* <img src={khiet} alt="owner" className="rounded-xl object-center flex justify-center"/> */}
+            Picture Here
           </div>
         </div>
       </div>
